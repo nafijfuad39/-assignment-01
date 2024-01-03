@@ -1,0 +1,30 @@
+ #result-card {
+            display: none;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+.card{
+    width: 40%;
+    margin: 0 auto;
+}
+
+/*.banner_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-flow: column;
+    /* margin: 10px; */
+}
+
+/*button {
+    margin-top: 10px;
+}
+
+input#ageInput {
+    margin-top: 10px;
+}*/
+*/
