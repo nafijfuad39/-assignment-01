@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,71 +8,122 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container">
-    <a class="navbar-brand" href="#">My-App</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li> 
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-     </div>
-  </div>
-</nav>
-
-<div class="container">
-    <div class="card mt-3">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="banner_content p-3">
-
-                <div class="mb-3">
-                    <label for="ageInput" class="form-label">Email address</label>
-                    <input type="number" class="form-control" id="ageInput" aria-describedby="emailHelp" placeholder="Enter your age">
-                  </div>
-
-  
-
-                <button onclick="checkAge()" class="btn btn-primary">Check Age</button>
-
-                <div id="result-card">
-                    <h2 id="result-text"></h2>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">My-App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="card mt-3">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner_content p-3">
+                        <h4>Hello , I'm Nafij</h4>
+                        <h2>Full Stack Web Developer</h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, hic, tenetur. Cum corporis, suscipit! Odit laborum aut omnis eos id nisi quae itaque quidem sapiente quibusdam distinctio nihil praesentium ea perferendis, impedit earum voluptas sunt amet reprehenderit ad esse nulla fugit rerum vero nostrum. Quaerat cumque fuga consequatur magnam, ipsa!
+                        </p>
+                    </div>
                 </div>
-
+                <div class="col-lg-6">
+                    <div class="card form_card">
+                        <div class="mb-3">
+                            <label for="ageInput" class="form-label">Email address</label>
+                            <input type="number" class="form-control" id="ageInput" aria-describedby="emailHelp" placeholder="Enter your age">
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button onclick="checkAge()" class="myButton">Check Age</button>
+                        </div>
+                        <div id="result-card">
+                            <h2 id="result-text"></h2>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="card mt-3 mb-3">
+            <div class="row p-3">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="./image/web-design.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Design</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="myButton2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="./image/web-development.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Php Laravel</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="myButton2">Learn More</a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="./image/mern-stack.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mern Stack</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="myButton2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img src="./image/ui-ux.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ui & Ux Design</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="myButton2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 
-
-
-
-<script src="./js/popper.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/bootstrap.bundle.min.js"></script>
-<script src="./js/script.js"></script>
+    <div class="bg-body-tertiary p-3 text-center footer_class">
+        <p>© 2024 Nafij- All Rights Reserved.</p>
+    </div>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>

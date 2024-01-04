@@ -1,30 +1,70 @@
  #result-card {
-            display: none;
-            margin: 20px;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
+     display: none;
+     margin-top: 20px;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
 
-.card{
-    width: 40%;
-    margin: 0 auto;
-}
+ .banner_content p {
+     text-align: justify;
+ }
 
-/*.banner_content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    flex-flow: column;
-    /* margin: 10px; */
-}
 
-/*button {
-    margin-top: 10px;
-}
+ .myButton {
+     box-shadow: 0px 10px 14px -7px #276873;
+     background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+     background-color: #ffe400;
+     border: none;
+     border-radius: 8px;
+     display: inline-block;
+     cursor: pointer;
+     color: #ffffff;
+     font-family: Arial;
+     font-size: 20px;
+     font-weight: bold;
+     padding: 10px 25px;
+     text-decoration: none;
+     text-shadow: 0px 1px 0px #3d768a;
+ }
 
-input#ageInput {
-    margin-top: 10px;
-}*/
-*/
+ .myButton2{
+     background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+     background-color: #ffe400;
+     border: none;
+     border-radius: 5px;
+     text-align: center;
+     display: block;
+     cursor: pointer;
+     color: #ffffff;
+     font-family: Arial;
+     font-size: 15px;
+     font-weight: bold;
+     padding: 7px 20px;
+     text-decoration: none;
+     text-shadow: 0px 1px 0px #3d768a;
+
+
+ }
+
+ .myButton:hover {
+     background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+     background-color: #408c99;
+ }
+
+ .myButton:active {
+     position: relative;
+     top: 1px;
+ }
+
+ .form_card {
+     padding: 20px;
+     margin: 37px 30px;
+ }
+.footer_class p{
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+ }
+
+
