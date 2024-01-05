@@ -4,6 +4,7 @@
      padding: 20px;
      border: 1px solid #ccc;
      border-radius: 5px;
+     text-align: center;
  }
 
  .banner_content p {
@@ -66,5 +67,6 @@
     text-align: center;
     margin: 0px;
  }
+
 
 
