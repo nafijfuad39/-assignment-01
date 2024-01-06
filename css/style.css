@@ -68,5 +68,81 @@
     margin: 0px;
  }
 
+ /* Card Area CSS */
+.card {
+  position: relative;
+}
+
+.card .single-card:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 0;
+  background-color: #408c99 ;
+  transition: .3s;
+}
+.card .single-card:hover:before {
+  height: 100%;
+}
+.card .single-card:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  width: 2px;
+  height: 0;
+  background-color: #408c99;
+  transition: .3s;
+}
+.card .single-card:hover:after {
+  height: 100%;
+}
+
+.card-body h5 {
+  color: #408c99 ;
+}
+
+.section-title {
+  margin-top: 50px;
+}
+.section-title h4 {
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	position: relative;
+	padding-bottom: 20px;
+}
+.section-title h4:before {
+  position: absolute;
+  content: "";
+  width: 110px;
+  height: 2px;
+  left: 50%;
+  bottom: 0;
+  background-color: #408c99 ;
+  transform: translateX(-50%);
+}
+.section-title h4:after {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #408c99;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    bottom: -4px;
+  }
+
+.section-title p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
 
 
